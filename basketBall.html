@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basketball Scoreboard</title>
+    <link rel="stylesheet" href="basketBall.css" />
+</head>
+
+<body>
+    <main class="scoreboard">
+
+        <header>
+            <h1>Basketball Scoreboard</h1>
+        </header>
+
+        <!-- Timer Controls -->
+        <div class="timer-controls">
+            <label for="minutes">Set Timer (minutes):</label>
+            <input type="number" id="minutes" min="0" value="0" />
+            <button id="set-timer">Set</button>
+        </div>
+
+        <!-- Timer Display -->
+        <div id="timer-display">00:00</div>
+
+        <!-- Timer Buttons -->
+        <div class="timer-buttons">
+            <button id="start">Start</button>
+            <button id="pause">Pause</button>
+            <button id="resume">Resume</button>
+            <button id="reset">Reset</button>
+        </div>
+
+        <!-- Teams and Score Controls -->
+        <div class="teams">
+            <div class="team" id="team1">
+                <h2>UNT Mean Green</h2>
+                <p>Score: <span id="team1-score">0</span></p>
+                <button id="team1-add1">+1 Point</button>
+                <button id="team1-add2">+2 Points</button>
+                <button id="team1-add3">+3 Points</button>
+            </div>
+
+            <div class="team" id="team2">
+                <h2>TWU Pioneers</h2>
+                <p>Score: <span id="team2-score">0</span></p>
+                <button id="team2-add1">+1 Point</button>
+                <button id="team2-add2">+2 Points</button>
+                <button id="team2-add3">+3 Points</button>
+            </div>
+        </div>
+
+        <!-- Reset Score Button -->
+        <div class="controls">
+            <button id="reset-score">Reset Score</button>
+        </div>
+
+    </main>
+
+    <script src="basketBall.js"></script>
+</body>
+
+</html>

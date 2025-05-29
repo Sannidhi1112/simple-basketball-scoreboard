@@ -1,0 +1,114 @@
+/* Reset default margin and padding */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Body background setup */
+body {
+  background-image: url('basketball.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+}
+
+/* Center and style scoreboard container */
+.scoreboard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 2.5rem;
+  max-width: 100%;
+  text-align: center;
+}
+
+/* Header and labels color */
+h1, h2, label {
+  color: rgb(82, 3, 3);
+  text-shadow: 1px 1px 2px white;
+}
+
+/* Score text styling */
+p {
+  color: white;
+  font-weight: bold;
+}
+
+/* Timer display styling */
+#timer-display {
+  font-size: 2.5rem;
+  color: white;
+  margin: 1rem;
+  font-weight: bold;
+}
+
+/* Minutes input field styling */
+#minutes {
+  border: none;
+  border-radius: 0.3rem;
+  width: 4rem;
+  color: white;
+  background-color: rgb(128, 37, 4);
+}
+
+/* Set timer button styling */
+#set-timer {
+  width: 2.5rem;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(128, 37, 4);
+  border: none;
+  border-radius: 0.3rem;
+  text-shadow: 1px 1px 2px white;
+}
+
+/* Flex containers for timer controls and buttons */
+.timer-controls,
+.timer-buttons {
+  display: flex;
+  gap: 1rem;
+  margin: 1rem;
+  justify-content: center;
+}
+
+/* Teams container styles */
+.teams {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  padding-top: 2rem;
+  padding-bottom: 1.5rem;
+}
+
+/* Individual team box styling */
+.team {
+  padding: 4rem;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  box-shadow: 0 0 10px rgba(20, 18, 18, 0.2);
+}
+
+/* Controls container styling */
+.controls {
+  display: flex;
+  gap: 2rem;
+}
+
+/* Buttons styling */
+#reset-score, #start, #pause, #resume, #reset,
+#team1-add1, #team1-add2, #team1-add3,
+#team2-add1, #team2-add2, #team2-add3 {
+  padding: 0.5rem;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(128, 37, 4);
+  border: none;
+  border-radius: 0.5rem;
+  text-shadow: 1px 1px 2px white;
+}
