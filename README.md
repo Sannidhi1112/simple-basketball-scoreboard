@@ -40,6 +40,8 @@ This project is designed as a **practice project for beginners** who want to imp
 5. Click **Reset Score** to reset the scores of both teams.
 
 ---
+You can access the live version of this scoreboard here:
+https://sannidhi1112.github.io/simple-basketball-scoreboard/basketBall.html
 
 ## How to Contribute
 
